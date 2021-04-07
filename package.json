@@ -2,7 +2,7 @@
   "name": "fortnite-shop-app",
   "version": "0.0.1",
   "homepage": "",
-  "github": "",
+  "github": "https://github.com/MaccKOT/react-food-app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

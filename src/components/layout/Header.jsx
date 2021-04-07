@@ -9,9 +9,7 @@ const Header = () => {
         </a>
         <ul id='nav-mobile' className='right hide-on-med-and-down'>
           <li>
-            <a href='https://github.com/MaccKOT/react-fortnite-shop'>
-              Github Repo
-            </a>
+            <a href='https://github.com/MaccKOT/react-food-app'>Github Repo</a>
           </li>
         </ul>
       </div>
