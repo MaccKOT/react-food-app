@@ -1,7 +1,7 @@
 {
-  "name": "fortnite-shop-app",
+  "name": "react-food-app",
   "version": "0.0.1",
-  "homepage": "",
+  "homepage": "https://stoic-archimedes-1c4d43.netlify.app/",
   "github": "https://github.com/MaccKOT/react-food-app",
   "scripts": {
     "dev": "vite",

@@ -8,4 +8,4 @@ CSS/UI kit: [Materialize CSS](https://materializecss.com/)
 
 API: [TheMealDB](https://www.themealdb.com/api.php)
 
-Live demo: [#](#)
+Live demo: [https://stoic-archimedes-1c4d43.netlify.app/](https://stoic-archimedes-1c4d43.netlify.app/)
