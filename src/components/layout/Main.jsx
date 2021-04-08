@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 // import mockupData from '../../mockupData';
 import Preloader from '../Preloader';
 
-const Shop = () => {
+const Main = () => {
   const loading = false;
   return (
     <main className='container content'>
@@ -12,4 +12,4 @@ const Shop = () => {
   );
 };
 
-export default Shop;
+export default Main;
