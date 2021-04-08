@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contacts from './pages/Contacts';
 import NotFound from './pages/404';
+import TestParams from './pages/Test';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route exact path='/' component={Home} />
             <Route path='/about' component={About} />
             <Route path='/contacts' component={Contacts} />
+            <Route path='/test/:id' component={TestParams} />
             <Route component={NotFound} />
           </Switch>
         </main>
