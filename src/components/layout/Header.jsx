@@ -1,15 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <nav className='green darken-2'>
       <div className='nav-wrapper'>
-        <a href='/' className='brand-logo'>
+        <Link to='/' className='brand-logo'>
           Meal Receipts
-        </a>
-        <ul id='nav-mobile' className='right hide-on-med-and-down'>
+        </Link>
+        <ul id='nav-mobile' className='right'>
           <li>
-            <a href='https://github.com/MaccKOT/react-food-app'>Github Repo</a>
+            <Link to='/about'>About</Link>
+          </li>
+          <li>
+            <Link to='/contacts'>Contacts</Link>
           </li>
         </ul>
       </div>
