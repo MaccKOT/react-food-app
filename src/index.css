@@ -35,82 +35,8 @@ nav {
   flex-grow: 1;
 }
 
-.cart {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  cursor: pointer;
-  z-index: 5;
-  padding: 1rem;
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
 }
-
-@media (min-width: 768px) {
-  .cart {
-    top: 5rem;
-    bottom: unset;
-  }
-}
-
-.cart_quantity {
-  /*  */
-}
-
-.basket-list {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 50rem;
-  max-width: 95%;
-  border-radius: 5px;
-  background: #e0e0e0;
-  animation: showBasket 300ms ease-in-out;
-}
-
-.basket-close {
-  cursor: pointer;
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-  color: #fff;
-}
-
-.basket-delete {
-  cursor: pointer;
-}
-
-.basket-quantity {
-  cursor: pointer;
-  vertical-align: middle;
-  font-size: 0.9rem;
-  color: #26a69a;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-@keyframes showBasket {
-  from {
-    top: 70%;
-    opacity: 0;
-  }
-  to {
-    top: 50%;
-    opacity: 1;
-  }
-}
-
-/* #toast-container {
-  top: 7% !important;
-  animation: toastFadeIn 200s ease-in-out !important;
-}
-
-@keyframes toastFadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(2rem);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0rem);
-  }
-} */
