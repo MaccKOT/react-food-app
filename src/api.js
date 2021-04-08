@@ -17,7 +17,7 @@ const getAllCategories = async () => {
 //Filter by Category
 //www.themealdb.com/api/json/v1/1/filter.php?c=Seafood
 const getFilteredCategory = async (catName) => {
-  const response = await fetch(API_URL + 'filter.php?c' + catName.toString());
+  const response = await fetch(API_URL + 'filter.php?c=' + catName.toString());
   return await response.json();
 };
 

@@ -2,12 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const CategoryItem = (props) => {
-  const {
-    idCategory,
-    strCategory,
-    strCategoryThumb,
-    strCategoryDescription,
-  } = props;
+  const { strCategory, strCategoryThumb, strCategoryDescription } = props;
 
   return (
     <div className='card'>
@@ -19,7 +14,7 @@ const CategoryItem = (props) => {
         <p>{strCategoryDescription.slice(0, 255)}...</p>
       </div>
       <div className='card-action'>
-        <Link to={`/category/${idCategory}`}>Watch more</Link>
+        <Link to={`/category/${strCategory}`}>Watch more</Link>
       </div>
     </div>
   );

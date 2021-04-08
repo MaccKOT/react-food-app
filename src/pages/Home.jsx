@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { getAllCategories } from '../api';
-import CategoryList from './CategoryList';
+import CategoryList from '../components/CategoryList';
 import Preloader from '../components/Preloader';
 
 const Home = () => {
