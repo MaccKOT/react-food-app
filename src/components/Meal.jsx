@@ -13,7 +13,7 @@ const Meal = (props) => {
         <span className='card-title'>{strMeal}</span>
       </div>
       <div className='card-action'>
-        <Link to={`/meal/${idMeal}`}>Watch reciepe</Link>
+        <Link to={`/recipe/${idMeal}`}>Watch reciepe</Link>
       </div>
     </div>
   );
